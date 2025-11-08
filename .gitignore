@@ -1,0 +1,33 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.env
+.env
+*.DS_Store
+.env.*
+.venv/
+venv/
+.idea/
+.vscode/
+
+# --- Node / React ---
+frontend/node_modules/
+frontend/.env
+frontend/.env.local
+frontend/build/
+frontend/dist/
+
+# --- Cache / OS / Misc ---
+*.swp
+*.bak
+*.tmp
+*~
+*.zip
+*.tar.gz
+Thumbs.db
+.DS_Store
+EOF
