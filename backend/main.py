@@ -9,6 +9,8 @@ app = FastAPI()
 
 origins = [
     "http://localhost:3000",  # React app address
+    "https://app.hubspot.com",
+    "https://auth.hubspot.com",
 ]
 
 app.add_middleware(
